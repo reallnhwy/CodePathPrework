@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff0b4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40mm"
+        android:text="Hello from Y Du!"
+        android:textColor="#246674"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="#246674"
+        android:padding="8sp"
+        android:text="Click to change text color"
+        android:textColor="#fff0b4"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/changeBackgroundButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12sp"
+        android:background="#246674"
+        android:textColor="#fff0b4"
+        android:textSize="20sp"
+        android:padding="8sp"
+        android:text="Click to change background color" />
+
+    <TextView
+        android:id="@+id/changeTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/changeBackgroundButton"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="12sp"
+        android:background="#246674"
+        android:textColor="#fff0b4"
+        android:textSize="20sp"
+        android:padding="8sp"
+        android:text="Click to change text" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/changeTextButton"
+        android:textAlignment="center"
+        android:textColor="#7b7156"
+        android:ems="10"
+        android:hint="Create your own text!" />
+
+    <TextView
+        android:id="@+id/changeCustomTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5sp"
+        android:background="#246674"
+        android:textColor="#fff0b4"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:text="Click to change custom text" />
+
+</RelativeLayout>
