@@ -4,7 +4,7 @@
 The app provides simple functions so that users can get used to the mobile interface such as adjusting the color of the text or background or updating the text they want.
 
 ### App Walk-though
-<img src="https://imgur.com/a/3mvWsEc.gif" width=200><br>
+<img src="https://imgur.com/x3DxbWm.gif" width=200><br>
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
